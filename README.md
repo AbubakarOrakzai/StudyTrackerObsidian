@@ -46,7 +46,7 @@ If `libayatana-appindicator3-dev` isn't found, older Ubuntu releases use `libapp
 npm install
 ```
 
-> **⚠️ Note on permissions & vulnerabilities:**
+> **Note on permissions & vulnerabilities:**
 > - **Never run `sudo npm install`.** It will lock your file permissions to the root user. If you encounter permission errors, fix your folder ownership first: `sudo chown -R $USER:$USER .`
 > - If `npm audit` flags vulnerabilities in `esbuild` or `vite`, updating them (`npm install vite@latest @vitejs/plugin-react@latest --save-dev`) will resolve the security warnings safely.
 
