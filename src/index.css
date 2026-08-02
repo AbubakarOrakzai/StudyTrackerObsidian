@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cute-but-tidy scrollbars instead of the default browser ones */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #2a2d35;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3a3e4a;
+}
+
+/* Checkbox look: a soft rounded square that fills avocado-green on check */
+.task-checkbox {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  border-radius: 6px;
+  border: 1.5px solid #3a3e4a;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  position: relative;
+}
+.task-checkbox:checked {
+  background: #8fae6e;
+  border-color: #8fae6e;
+}
+.task-checkbox:checked::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 5px;
+  height: 9px;
+  border: solid #14151a;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
