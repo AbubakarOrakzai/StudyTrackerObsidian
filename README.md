@@ -186,7 +186,7 @@ study-companion/
 - **Export/import use the same format on purpose** — round-tripping a plan (export, hand-edit, re-import) is simpler to support than a full in-app editor, and preserves progress correctly since checkbox state travels with the markdown.
 ## Next steps you might want
  
-- A tray icon (via `tauri-plugin-tray`) so closing the window doesn't fully quit the app.
+- A tray icon (via `tauri plugin tray`) so closing the window doesn't fully quit the app.
 - Multiple named checklists (e.g. swap between study plans) — the store already separates `plan` cleanly, so this is mostly a UI change plus keying `plan` by an id.
 - Weekly Obsidian summary (e.g. append a "Week X wrap-up" block every Sunday) — you already have `pomodoroLogs`/`completionLogs` with timestamps to build that from.
 ## Version history
