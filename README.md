@@ -115,7 +115,7 @@ Either package installs it as **Study Companion** in your app launcher, so you c
 In Settings:
 1. Toggle **Obsidian logging** on.
 2. Browse to (or paste) your vault's folder path.
-3. Set the log file name (defaults to `Study Log.md` — it's created automatically if it doesn't exist, in the vault root).
+3. Set the log file name (defaults to `Study Log.md` it's created automatically if it doesn't exist, in the vault root).
 4. Hit **Test connection** — you should see a "Connection test" entry appear in that file inside Obsidian.
 From then on, checking off a task or finishing a pomodoro focus session appends a line like:
  
