@@ -1,6 +1,6 @@
 # Study Companion 🥑
  
-A cute, lightweight desktop widget for tracking a multi-week study plan: a hierarchical checklist (Phases → Weeks → Tasks), a pomodoro timer with a mood-changing avocado, and automatic logging to an Obsidian vault file.
+A cute, lightweight desktop widget for tracking a multiweek study plan: a hierarchical checklist (Phases → Weeks → Tasks), a pomodoro timer with a mood-changing avocado, and automatic logging to an Obsidian vault file.
  
 > **Latest release:** v1.0.0 — see the [Releases page](../../releases) for ready-to-install `.deb`/`.rpm` packages if you'd rather not build from source.
  
