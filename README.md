@@ -191,4 +191,4 @@ study-companion/
 - Weekly Obsidian summary (e.g. append a "Week X wrap-up" block every Sunday) — you already have `pomodoroLogs`/`completionLogs` with timestamps to build that from.
 ## Version history
  
-- **v1.0.0** — Initial release: checklist with markdown import/export, pomodoro timer with mood-changing avocado mascot, Obsidian vault logging, always-on-top + widget mode, Debian/RPM packages.
+- **v1.0.0** — Initial release: checklist with markdown import/export, pomodoro timer with mood-changing avocado, Obsidian vault logging, always on top + widget mode, Debian/RPM packages.
